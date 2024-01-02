@@ -21,8 +21,8 @@ cf_id PK INT
 contact_id FK >- Contacts.contact_id INT
 company_name VARCHAR(100)
 description VARCHAR(100)
-goal INT
-pledged INT
+goal FLOAT(2)
+pledged FLOAT(2)
 outcome VARCHAR(100)
 backers_count INT
 country VARCHAR(100)
